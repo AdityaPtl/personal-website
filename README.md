@@ -28,10 +28,29 @@ A minimalist, responsive portfolio website to showcase my software projects, ski
 
 ## 🚀 Getting Started
 
-Clone the repo and install dependencies:
+To run the site locally:
 
 ```bash
 git clone https://github.com/AdityaPtl/personal-website.git
 cd personal-website
 npm install
 npm run dev
+```
+
+To build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Project Structure
+
+- `src/` – All source code
+  - `components/` – Reusable UI blocks (Navbar, Layout, ProjectCard, etc.)
+  - `data/` – Data for the “Currently”, “Previously”, and “Projects” sections
+  - `App.jsx` – Top-level layout and structure
+  - `main.jsx` – React entry point
+- `public/` – Static assets (e.g. `favicon.ico`)
+- `vite.config.js` – Vite configuration file
