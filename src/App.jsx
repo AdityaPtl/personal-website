@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "@fontsource/roboto-mono";
 
 export default function App() {
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowContent(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="bg-neutral-900 text-neutral-200 min-h-screen font-mono text-[15px]">
+    <div
+      className={`transition-all duration-700 ease-out ${
+        showContent ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+      } bg-neutral-900 text-neutral-200 min-h-screen font-mono text-[15px]`}
+    >
       <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 px-12 sm:px-16 pt-24 pb-[20vh]">
 
         {/* Column 1: Name, Info, Links */}
