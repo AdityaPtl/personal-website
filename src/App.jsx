@@ -131,39 +131,6 @@ export default function App() {
           </div>
         </div>
       </div>
-
-      {/* Projects Heading Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-4 px-8 sm:px-16 pt-24">
-        <div className="col-span-1 sm:col-start-4">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif italic leading-tight mb-4">Projects</h2>
-          <p className="text-[13px] text-neutral-400">Tools I’ve built while learning and exploring software development.</p>
-        </div>
-      </div>
-
-      {/* Projects Section (Left) */}
-      <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 px-8 sm:px-16 pt-10 pb-20">
-        <div className="col-span-1 sm:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-24 self-start pr-12">
-          <div className="space-y-2">
-            <p className="text-[13px] text-neutral-500">01</p>
-            <h3 className="text-[14px] font-semibold">Budget Tracker App</h3>
-            <p className="text-[13px] text-neutral-400">A full stack finance tool with dynamic budgeting, charts, and secure auth.</p>
-            <div className="flex gap-4 text-[13px]">
-              <a href="https://github.com/AdityaPtl/budget-tracker" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://your-budget-app-link.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
-            </div>
-          </div>
-
-          <div className="space-y-2">
-            <p className="text-[13px] text-neutral-500">02</p>
-            <h3 className="text-[14px] font-semibold">Cost of Living Explorer</h3>
-            <p className="text-[13px] text-neutral-400">Compares cost-of-living data such as rent and utilities across Australian cities.</p>
-            <div className="flex gap-4 text-[13px]">
-              <a href="https://github.com/AdityaPtl/cost-of-living-explorer" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://your-notebook-viewer.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Notebook</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
