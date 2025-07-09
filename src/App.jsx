@@ -84,10 +84,10 @@ export default function App() {
           </div>
         </div>
 
-        {/* Column 4: Previously */}
+        {/* Column 4: Projects */}
         <div className="col-span-1 space-y-14 text-[15px]">
           <div>
-            <p className="font-bold text-[14px] mb-6">Previously</p>
+            <p className="font-bold text-[14px] mb-6">Projects</p>
 
             <div className="mb-12">
               <p className="text-sm text-neutral-500 mb-4">01</p>
@@ -140,32 +140,6 @@ export default function App() {
             <div className="flex gap-4 text-[13px]">
               <a href="https://github.com/AdityaPtl/cost-of-living-explorer" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
               <a href="https://your-notebook-viewer.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Notebook</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Projects Section (Right with images) */}
-      <div className="grid grid-cols-1 sm:grid-cols-4 gap-8 px-8 sm:px-16 pb-[30vh]">
-        <div className="col-span-1"></div>
-        <div className="col-span-1 sm:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-24 self-start pl-12">
-          <div className="space-y-2">
-            <p className="text-[13px] text-neutral-500">03</p>
-            <h3 className="text-[14px] font-semibold">Example Project 1</h3>
-            <p className="text-[13px] text-neutral-400">A sample layout with an image underneath for visual showcase.</p>
-            <div className="flex gap-4 text-[13px]">
-              <a href="#" className="text-blue-400 hover:underline">GitHub</a>
-              <a href="#" className="text-blue-400 hover:underline">Live</a>
-            </div>
-          </div>
-
-          <div className="space-y-2">
-            <p className="text-[13px] text-neutral-500">04</p>
-            <h3 className="text-[14px] font-semibold">Example Project 2</h3>
-            <p className="text-[13px] text-neutral-400">Another sample layout with a visual preview for completeness.</p>
-            <div className="flex gap-4 text-[13px]">
-              <a href="#" className="text-blue-400 hover:underline">GitHub</a>
-              <a href="#" className="text-blue-400 hover:underline">Live</a>
             </div>
           </div>
         </div>
