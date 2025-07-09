@@ -121,7 +121,7 @@ export default function App() {
 
             <div className="mb-12">
               <p className="text-sm text-neutral-500 mb-4">04</p>
-              <h3 className="text-[14px] font-semibold">Budget Tracker App</h3>
+              <h3 className="text-[14px] font-semibold">More on my Github</h3>
               <p className="text-[13px] text-neutral-400">A full stack finance tool with dynamic budgeting, charts, and secure auth.</p>
               <div className="flex gap-4 text-[13px]">
                 <a href="https://github.com/AdityaPtl/budget-tracker" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
