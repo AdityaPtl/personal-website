@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 html, body {
-  @apply bg-neutral-900 text-neutral-200;
+  background-color: #171717;
+  color: #e5e5e5;
   overscroll-behavior: none;
 }
