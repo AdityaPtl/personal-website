@@ -106,24 +106,24 @@ export default function App() {
               <p className="text-[13px] text-neutral-400">A full stack finance tool with dynamic budgeting, charts, and secure auth.</p>
               <div className="flex gap-4 text-[13px]">
                 <a href="https://github.com/AdityaPtl/budget-tracker" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://your-budget-app-link.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
+                <a href="https://financial-planning-adi.com/" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
               </div>            
             </div>
 
             <div className="mb-12">
               <p className="text-sm text-neutral-500 mb-4">02</p>
-              <h3 className="text-[14px] font-semibold">Budget Tracker App</h3>
-              <p className="text-[13px] text-neutral-400">A full stack finance tool with dynamic budgeting, charts, and secure auth.</p>
+              <h3 className="text-[14px] font-semibold">Cost of Living Comparison Tool</h3>
+              <p className="text-[13px] text-neutral-400">An interactive data exploration tool that compares cost of living metrics across Australian cities.</p>
               <div className="flex gap-4 text-[13px]">
-                <a href="https://github.com/AdityaPtl/budget-tracker" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://your-budget-app-link.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
+                <a href="https://github.com/AdityaPtl/cost-of-living" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://cost-of-living-adi.streamlit.app/" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
               </div>                  
             </div>
 
             <div className="mb-12">
               <p className="text-sm text-neutral-500 mb-4">03</p>
-              <h3 className="text-[14px] font-semibold">Budget Tracker App</h3>
-              <p className="text-[13px] text-neutral-400">A full stack finance tool with dynamic budgeting, charts, and secure auth.</p>
+              <h3 className="text-[14px] font-semibold">Placeholder for 3rd project</h3>
+              <p className="text-[13px] text-neutral-400">placeholder for 3rd project.</p>
               <div className="flex gap-4 text-[13px]">
                 <a href="https://github.com/AdityaPtl/budget-tracker" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="https://your-budget-app-link.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
@@ -133,10 +133,9 @@ export default function App() {
             <div className="mb-12">
               <p className="text-sm text-neutral-500 mb-4">04</p>
               <h3 className="text-[14px] font-semibold">More on my Github</h3>
-              <p className="text-[13px] text-neutral-400">A full stack finance tool with dynamic budgeting, charts, and secure auth.</p>
+              <p className="text-[13px] text-neutral-400">You can find more tools, experiments, and ongoing projects on my GitHub.</p>
               <div className="flex gap-4 text-[13px]">
-                <a href="https://github.com/AdityaPtl/budget-tracker" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://your-budget-app-link.com" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">Live</a>
+                <a href="https://github.com/AdityaPtl/" className="text-blue-400 hover:underline" target="_blank" rel="noreferrer">GitHub</a>
               </div>      
             </div>
           </div>
